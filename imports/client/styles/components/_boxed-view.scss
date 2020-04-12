@@ -1,0 +1,29 @@
+.boxed-view {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxed-view__box {
+  border: 1px solid $boxed-view-border-color;
+  background-color: $boxed-view-bg;
+  padding: 2.4rem;
+  text-align: center;
+  width: 24rem;
+}
+
+.boxed-view--modal {
+  position: fixed; //to zadaje poziciju u odnosu na viewport, recimo ako nešto zadamo da je 10px od vrha to će uvik biti 10px od gornjeg ruba browserove alatne trake, bez obzira što se scroola nešto na stranici, znači u relativna u odnosu na top of the browser a ne na top of the page.
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: fade-out($boxed-view-overlay-bg, .3); //damo mu transparent background
+}
+
+.boxed-view__form {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,34 @@
+.editor {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid $grey;
+    width: 100%;
+    padding: $large-space;
+}
+
+.editor__title {
+    border: none !important;
+    border-bottom: 2px solid $grey !important;
+    font-size: $large-font-size !important;
+    margin-bottom: $large-space !important;
+    outline: none !important;
+    padding: $input-spacing !important;
+    font-weight: 700 !important;
+}
+
+.editor__body {
+    flex-grow: 1 !important;
+    font-weight: 300 !important;
+    margin-bottom: $large-space !important;
+    outline: none !important;
+    padding: $input-spacing !important;
+    resize: none !important;
+    -webkit-overflow-scrooling: touch;
+}
+
+.editor__message {
+    text-align: center;
+    margin: $large-space;
+    font-style: italic;
+}

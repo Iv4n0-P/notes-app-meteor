@@ -1,0 +1,50 @@
+// Colors
+$grey: #dddddd;
+$primary: #397ab1;
+$light-grey: #f9f9f9;
+$dark-grey: #777777;
+
+// Spacing
+$space: 1.4rem;
+$large-space: 2.8rem;
+
+//boxed-view
+$boxed-view-overlay-bg: $grey;
+$boxed-view-bg: white;
+$boxed-view-border-color: $grey;
+
+//font-sizes
+$base-font-size: 1.4rem;
+$input-spaceing: 1rem;
+$large-font-size: 2.2rem;
+
+//form-inputs
+$input-border: $grey;
+$input-spacing: 1rem;
+
+//button
+$button-bg: $primary;
+$button-color: white;
+$button-pill-color: $primary;
+$button-secondary-bg: $light-grey;
+$button-secondary-color: $dark-grey;
+$button-secondary-border-color: $grey;
+
+//header
+$header-bg: $primary;
+$header-color: white;
+$content-max-width: 100rem;
+$header-height: 6rem;
+
+//item
+$item-border-width: 4px;
+
+//body
+$body-background-color: #fafafa;
+$body-default-color: #333;
+$body-default-font-family: Helvetica, Arial, sans-serif; 
+
+//page-content
+$page-content-sidebar-width: 30rem;
+$page-content-main-width: calc(#{$content-max-width} - #{$page-content-sidebar-width});
+$page-content-height: calc(100vh - #{$header-height})

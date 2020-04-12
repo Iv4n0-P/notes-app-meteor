@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: $body-default-font-family;
+}
+
+body {
+  color: $body-default-color;
+  background-color: $body-background-color;
+  font-size: $base-font-size;
+  font-family: $body-default-font-family; //dodamo i font family, prvo Helvetica, ako sistem nema taj onda pada na Arial pa na sans-serif
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: $space;
+}
+
+h2 {
+  margin-bottom: $space;
+  font-size: $large-font-size;
+}
+
+a {
+  color: $body-default-color;
+  font-size: $base-font-size;
+}
+
+input[type=text], input[type=email], input[type=password], textarea {
+  font-size: $base-font-size;
+  margin-bottom: $space;
+  font-family: $body-default-font-family;
+  padding: $input-spaceing;
+  border: 1px solid $input-border;
+  color: $body-default-color;
+  }
+
+  p {
+    margin-bottom: $space;
+  }
